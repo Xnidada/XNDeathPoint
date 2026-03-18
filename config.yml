@@ -1,0 +1,116 @@
+# 消息配置
+messages:
+  prefix: "&f[&bXNDeathPoint&f] "
+  no_permission: "&c你没有权限使用此命令"
+  no_permission_other: "&c你没有权限帮助其他玩家打开死亡点界面"
+  player_not_online: "&c玩家 {player} 不在线或不存在"
+  only_player: "&c只有玩家可以使用此命令"
+  gui_open_confirm: "&a已为玩家 {player} 打开死亡点界面"
+  gui_open_self: "&a管理员已为你打开死亡点界面"
+  no_death_records: "&c你还没有死亡记录"
+  world_not_loaded: "&c死亡点所在世界未加载，无法传送"
+  teleport_success: "&a已传送到死亡点 #{slot}"
+  teleport_recent: "&a已传送到最近一次死亡点"
+  cost_parse_error: "&c传输点费用解析错误，请联系管理员！"
+  not_enough_money: "&c你没有足够的金币传送到此死亡点！"
+  config_reload: "&a已重新加载配置文件"
+  console_only_player: "&c只有玩家可以使用此命令打开自己的死亡点界面"
+
+gui:
+  # GUI 标题
+  title: "&f[&bXNDeathPoint&f] &c死亡点传送"
+  # 自定义 gui 中显示
+  items:
+    point1:
+      # 显示材质
+      material: "BED"
+      # 显示名字
+      name: "&c死亡点 #1"
+      # 更多lore
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+    point2:
+      material: "BED"
+      name: "&c死亡点 #2"
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+    point3:
+      material: "BED"
+      name: "&c死亡点 #3"
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+    point4:
+      material: "BED"
+      name: "&c死亡点 #4"
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+    point5:
+      material: "BED"
+      name: "&c死亡点 #5"
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+    point6:
+      material: "BED"
+      name: "&c死亡点 #6"
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+    point7:
+      material: "BED"
+      name: "&c死亡点 #7"
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+    point8:
+      material: "BED"
+      name: "&c死亡点 #8"
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+    point9:
+      material: "BED"
+      name: "&c死亡点 #9"
+      lore:
+        - "&7世界: &f{world}"
+        - "&7坐标: &f{x}, {y}, {z}"
+        - "&7时间: &f{time}"
+        - "&6所需金币: &e{cost}金币"
+
+# 传送时所需花费
+teleport_costs:
+  point1: 0
+  point2: 10
+  point3: 20
+  point4: 30
+  point5: 40
+  point6: 50
+  point7: 60
+  point8: 70
+  point9: 80
+
+# 开启的世界
+enabled_worlds:
+  - world
+  - world_nether
+  - world_the_end

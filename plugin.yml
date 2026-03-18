@@ -1,0 +1,9 @@
+name: XNDeathPoint
+version: 1.8
+main: xiani.XNDeathPoint.Main
+softdepend: [Vault]
+
+commands:
+  deathpoint:
+    description: 死亡点
+    aliases: [dp]

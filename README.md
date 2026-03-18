@@ -26,7 +26,7 @@ deathpoint可简写为dp
 
 | --- | --- | --- |
 
-[COLOR=rgb(255, 255, 255)]| deathpoint open | deathpoint.use | 打开死亡传送点菜单 |[/COLOR]
+| deathpoint open | deathpoint.use | 打开死亡传送点菜单 |
 
 | deathpoint bk | deathpoint.use | 直接传送至最近一次死亡点 |
 
